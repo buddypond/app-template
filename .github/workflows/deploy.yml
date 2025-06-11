@@ -1,0 +1,5 @@
+- uses: buddypond/upload-action@v1
+  with:
+    bp_api_key: ${{ secrets.BP_API_KEY }}
+    user: Marak
+    folder: pads/test_app
