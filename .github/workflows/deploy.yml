@@ -1,5 +1,21 @@
-- uses: buddypond/upload-action@v1
-  with:
-    bp_api_key: ${{ secrets.BP_API_KEY }}
-    user: Marak
-    folder: pads/test_app
+name: Deploy Buddy App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Upload to Buddypond
+        uses: buddypond/upload-action@v1
+        with:
+          bp_api_key: ${{ secrets.BP_API_KEY }}
+          user: Marak
+          folder: pads/test_app
