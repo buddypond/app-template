@@ -2,7 +2,10 @@
 
 This is a ready-to-deploy template for building and hosting BuddyPond Apps.
 
-By forking this repo and connecting your GitHub account to BuddyPond, you can automatically publish your static app files to your BuddyPond Pad using GitHub Actions.
+By forking this repo and connecting your GitHub account to BuddyPond, you can automatically publish your static app files to your BuddyPond App using GitHub Actions.
+
+![buddy-the-frog-256](https://github.com/user-attachments/assets/0f7a8018-ad37-493a-908d-68765929dfab)
+
 
 ---
 
