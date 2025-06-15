@@ -2,7 +2,7 @@
 
 This is a ready-to-deploy template for building and hosting BuddyPond Apps.
 
-By forking this repo and connecting your GitHub account to BuddyPond, you can automatically publish your static app files to your BuddyPond App using GitHub Actions.
+By forking this repo and connecting your GitHub account to [BuddyPond](https://buddypond.com), you can automatically publish your static app files to your BuddyPond App using GitHub Actions.
 
 ![buddy-the-frog-256](https://github.com/user-attachments/assets/0f7a8018-ad37-493a-908d-68765929dfab)
 
@@ -29,7 +29,7 @@ Click **“Use this template”** to create your own copy under your GitHub acco
 
 ### 2. Generate a BuddyPond API Key
 
-Inside your BuddyPond account:
+Inside your [BuddyPond](https://buddypond.com) account:
 
 1. Open your `Profile`
 2. Navigate to `API Keys`
