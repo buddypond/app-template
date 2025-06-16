@@ -1,8 +1,8 @@
-# 🧪 BuddyPond App Template
+# 🧪 Buddy Pond App Template
 
-This is a ready-to-deploy template for building and hosting BuddyPond Apps.
+This is a ready-to-deploy template for building and hosting Buddy Pond Apps.
 
-By forking this repo and connecting your GitHub account to [BuddyPond](https://buddypond.com), you can automatically publish your static app files to your BuddyPond App using GitHub Actions.
+By forking this repo and connecting your GitHub account to [Buddy Pond](https://buddypond.com), you can automatically publish your static app files to your Buddy Pond App using GitHub Actions.
 
 ![buddy-the-frog-256](https://github.com/user-attachments/assets/0f7a8018-ad37-493a-908d-68765929dfab)
 
@@ -11,11 +11,10 @@ By forking this repo and connecting your GitHub account to [BuddyPond](https://b
 
 ## 🚀 How It Works
 
-This repo includes a pre-configured [BuddyPond Upload Action](https://github.com/buddypond/upload-action) that uploads your app files (like `index.html`, images, CSS, JavaScript, etc.) to your personal BuddyPond storage space whenever you push to the `main` branch.
+This repo includes a pre-configured [Buddy Pond Upload Action](https://github.com/buddypond/upload-action) that uploads your app files (like `index.html`, images, CSS, JavaScript, etc.) to your personal Buddy Pond storage space whenever you push to the `main` branch.
 
 ---
 ![buddy-apps](https://github.com/user-attachments/assets/c50e1ed4-4595-4775-8f40-d4b013ceb6d5)
-
 
 ___
 
@@ -27,9 +26,9 @@ Click **“Use this template”** to create your own copy under your GitHub acco
 
 ---
 
-### 2. Generate a BuddyPond API Key
+### 2. Generate a Buddy Pond API Key
 
-Inside your [BuddyPond](https://buddypond.com) account:
+Inside your [Buddy Pond](https://buddypond.com) account:
 
 1. Open your `Profile`
 2. Navigate to `API Keys`
@@ -41,19 +40,19 @@ Inside your [BuddyPond](https://buddypond.com) account:
 
 ---
 
-### 3. Add Your BuddyPond API Key to Github
+### 3. Add Your Buddy Pond API Key to Github
 
 In your new Github repo:
 
 1. Go to **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
 2. Create a secret named `BP_API_KEY`
-3. Copy in your BuddyPond API Key
+3. Copy in your Buddy Pond API Key
 
 ---
 
 ### 3. Configure Your Upload Target
 
-In `.github/workflows/deploy.yml`, update this section with your BuddyPond info:
+In `.github/workflows/deploy.yml`, update this section with your Buddy Pond info:
 
 ```yaml
 - uses: buddypond/upload-action@v1
@@ -67,5 +66,5 @@ Note: Your target `folder` can be any path within your  `Buddy Files` home. We r
 
 ## Storage Limitations
 
-Free BuddyPond accounts default to `10mb` of storage per user. Storage limits are linked to 1:1 to your `BuddyCoin` balance of `$MEGA` coins. You can acquire more `$MEGA` within BuddyPond.
+Free Buddy Pond accounts default to `10mb` of storage per user. Storage limits are linked to 1:1 to your `BuddyCoin` balance of `$MEGA` coins. You can acquire more `$MEGA` within Buddy Pond.
 
